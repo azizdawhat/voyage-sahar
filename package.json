@@ -1,0 +1,22 @@
+{
+  "author": "Aziz Da <azizdawhat@gmail.com>",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "commit-and-tag-version": "^12.4.0",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "license": "GPL-3.0-or-later",
+  "name": "voyage-sahar",
+  "private": true,
+  "repository": "github:azizdawhat/voyage-sahar",
+  "scripts": {},
+  "type": "module",
+  "workspaces": [
+    "./packages/*"
+  ]
+}
